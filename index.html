@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="vi">
   <head>
-    <title>HuDa - Wedding</title>
+    <title>Thư mời đám cưới - Thu Huyền & Quang Dân</title>
     <meta charset="utf-8" />
-    <meta name="description" content="HuDa - Wedding" />
+    <meta
+      name="description"
+      content="Mỗi lời mời là một cánh cửa mở ra thế giới của chúng tôi, và bạn là người được mời đầu tiên. Bằng sự hiện diện của bạn, ngày cưới sẽ trở thành một chương mới trong cuộc đời của chúng tôi. Cảm ơn bạn đã đồng hành và làm phong phú thêm niềm vui của chúng tôi!"
+    />
+    <meta property="og:image" content="/huda_wedding/images/og_image.jpg" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="icon" href="favicon.png" />
@@ -189,7 +193,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-flower">
+    <div class="position-relative bg-flower">
       <div class="countdown overflow-hidden">
         <div class="container-xxl py-5 area">
           <div class="countdown-text">
@@ -197,29 +201,33 @@
               <div class="fs-3 fw-bold text-uppercase font-crimson-pro">
                 Cùng chúng mình đếm ngược thời gian nhé
               </div>
-              <div class="h6 mt-2">Ngày: 02 Tháng 12, 2023</div>
+              <div class="h6 mt-4">Ngày: 02 Tháng 12, 2023</div>
             </div>
-            <div>
+            <div class="pt-0 pt-lg-1">
               <div
-                class="mt-5 mx-auto fs-1 countdown-desktop font-crimson-pro"
+                class="mt-5 mx-auto fs-1 font-crimson-pro"
                 data-animate="animate__zoomInDown"
               >
-                <div class="row g-1 text-center">
-                  <div class="col-3">
-                    <div class="cd-days">..</div>
-                    <div>Ngày</div>
-                  </div>
-                  <div class="col-3">
-                    <div class="cd-hours">..</div>
-                    <div>Giờ</div>
-                  </div>
-                  <div class="col-3">
-                    <div class="cd-minutes">..</div>
-                    <div>Phút</div>
-                  </div>
-                  <div class="col-3">
-                    <div class="cd-seconds">..</div>
-                    <div>Giây</div>
+                <div class="row">
+                  <div class="col-12 col-lg-8 offset-lg-2">
+                    <div class="row g-1 text-center">
+                      <div class="col-3">
+                        <div class="cd-days">..</div>
+                        <div>Ngày</div>
+                      </div>
+                      <div class="col-3">
+                        <div class="cd-hours">..</div>
+                        <div>Giờ</div>
+                      </div>
+                      <div class="col-3">
+                        <div class="cd-minutes">..</div>
+                        <div>Phút</div>
+                      </div>
+                      <div class="col-3">
+                        <div class="cd-seconds">..</div>
+                        <div>Giây</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -237,6 +245,158 @@
             <li></li>
             <li></li>
           </ul>
+        </div>
+      </div>
+      <div class="wish wish-header-container">
+        <div class="container-xxl">
+          <div class="row">
+            <div class="col-12 col-lg-8 offset-lg-2">
+              <div class="rounded-top">
+                <div
+                  class="text-center py-4 py-lg-5 wish-header position-relative"
+                >
+                  <div>
+                    <div class="h2 text-uppercase font-noto-serif fw-bold">
+                      Góc Lời Chúc
+                    </div>
+                    <div>
+                      <img class="img-tilde" src="images/tilde.png" alt="" />
+                    </div>
+                    <div class="h5 mt-4 px-3 fw-normal">
+                      Nơi lưu giữ những lời chúc ấm áp và ý nghĩa từ gia đình,
+                      bạn bè và người thân yêu.
+                    </div>
+                  </div>
+                  <img class="arrow" src="images/arrow.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wish">
+      <div class="container-xxl overflow-hidden">
+        <div class="row">
+          <div class="col-12 col-lg-8 offset-lg-2">
+            <form
+              class="px-3 px-lg-5 shadow rounded-bottom needs-validation wish-form"
+              novalidate
+            >
+              <div class="pt-5 mb-3">
+                <input
+                  type="text"
+                  class="form-control name"
+                  placeholder="Tên của bạn"
+                  required
+                  minlength="5"
+                  maxlength="25"
+                />
+                <div class="invalid-feedback">
+                  Tên không được để trống và ít nhất có 5 ký tự.
+                </div>
+              </div>
+              <div>
+                <textarea
+                  class="form-control wish"
+                  placeholder="Lời chúc"
+                  style="height: 150px"
+                  required
+                  minlength="50"
+                  maxlength="500"
+                ></textarea>
+                <div class="invalid-feedback">
+                  Lời chúc không được để trống và ít nhất có 50 ký tự.
+                </div>
+              </div>
+              <div class="text-center mt-4 pb-4">
+                <button type="submit" class="btn w-100 send-btn btn-submit">
+                  <i class="bi bi-envelope-paper-heart"></i>
+                  <span class="ms-1 text-uppercase">Gửi lời chúc</span>
+                </button>
+                <button
+                  type="button"
+                  class="btn w-100 send-btn btn-loading d-none"
+                  disabled
+                >
+                  <span class="spinner-border spinner-border-sm"></span>
+                  <span role="status">Đang gửi...</span>
+                </button>
+                <button
+                  type="button"
+                  class="btn w-100 send-btn btn-done d-none"
+                  disabled
+                >
+                  <i class="bi bi-check-circle"></i>
+                  <span role="status">Đã gửi</span>
+                </button>
+                <button
+                  type="button"
+                  class="btn w-100 send-btn btn-error d-none"
+                  disabled
+                >
+                  <i class="bi bi-exclamation-octagon"></i>
+                  <span role="status">Lỗi! Vui lòng thử lại</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="pt-3 pt-lg-5">
+          <div id="carouselWish" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!--<div class="row g-0 mb-2">-->
+                <!--  <div class="col-12 col-lg-2"></div>-->
+                <!--  <div class="col-12 col-lg-8">-->
+                <!--    <div class="p-3 h-100">-->
+                <!--      <div class="p-4 shadow rounded-4 h-100 position-relative">-->
+                <!--        <i class="bi bi-quote text-muted fs-1"></i>-->
+                <!--        <div class="fst-italic text-justify break-spaces wish-content">...</div>-->
+                <!--        <div class="wish-guest-name">-->
+                <!--          <div class="d-flex">-->
+                <!--            <div class="me-3">-->
+                <!--              <img-->
+                <!--                class="wish-avatar"-->
+                <!--                src="images/user.png"-->
+                <!--                alt=""-->
+                <!--              />-->
+                <!--            </div>-->
+                <!--            <div class="fw-bold d-flex middle">...</div>-->
+                <!--          </div>-->
+                <!--        </div>-->
+                <!--      </div>-->
+                <!--    </div>-->
+                <!--  </div>-->
+                <!--  <div class="col-12 col-lg-2"></div>-->
+                <!--</div>-->
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev d-none"
+              type="button"
+              data-bs-target="#carouselWish"
+              data-bs-slide="prev"
+              aria-label="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+            </button>
+            <button
+              class="carousel-control-next d-none"
+              type="button"
+              data-bs-target="#carouselWish"
+              data-bs-slide="next"
+              aria-label="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -269,104 +429,10 @@
         <!--    <img class="shadow-none p-5" src="images/gallery/11.png" alt="" />-->
       </div>
     </div>
-    <div class="wish">
-      <div class="container-xxl py-4 py-lg-5 overflow-hidden">
-        <div class="shadow rounded-3">
-          <div
-            class="text-center mb-3 py-4 py-lg-5 wish-header position-relative"
-          >
-            <div data-animate="animate__zoomIn">
-              <div class="h2 text-uppercase font-noto-serif fw-bold">
-                Góc Lời Chúc
-              </div>
-              <div>
-                <img class="img-tilde" src="images/tilde.png" alt="" />
-              </div>
-              <div class="h5 mt-4 fw-normal">
-                Nơi lưu giữ những lời chúc ấm áp và ý nghĩa từ gia đình, bạn bè
-                và người thân yêu.
-              </div>
-            </div>
-            <div class="mt-4">
-              <a
-                target="_blank"
-                class="btn px-4 text-uppercase ldx ldx-breath send-btn"
-                href="https://forms.gle/nMuhoR3hkNvwh3un6"
-              >
-                <i class="bi bi-envelope-paper-heart"></i>
-                Gửi lời chúc
-              </a>
-            </div>
-            <img class="arrow" src="images/arrow.png" alt="" />
-          </div>
-          <div class="px-lg-3 pt-3 pt-lg-4 pb-2 pb-lg-4">
-            <div
-              id="carouselWish"
-              class="carousel carousel-dark slide"
-              data-animate="animate__zoomIn"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <!--<div class="row g-0 mb-2">-->
-                  <!--  <div class="col-12 col-lg-2"></div>-->
-                  <!--  <div class="col-12 col-lg-8">-->
-                  <!--    <div class="p-3 h-100">-->
-                  <!--      <div class="p-4 shadow rounded-4 h-100 position-relative">-->
-                  <!--        <i class="bi bi-quote text-muted fs-1"></i>-->
-                  <!--        <div class="fst-italic text-justify break-spaces wish-content">...</div>-->
-                  <!--        <div class="wish-guest-name">-->
-                  <!--          <div class="d-flex">-->
-                  <!--            <div class="me-3">-->
-                  <!--              <img-->
-                  <!--                class="wish-avatar"-->
-                  <!--                src="images/user.png"-->
-                  <!--                alt=""-->
-                  <!--              />-->
-                  <!--            </div>-->
-                  <!--            <div class="fw-bold d-flex middle">...</div>-->
-                  <!--          </div>-->
-                  <!--        </div>-->
-                  <!--      </div>-->
-                  <!--    </div>-->
-                  <!--  </div>-->
-                  <!--  <div class="col-12 col-lg-2"></div>-->
-                  <!--</div>-->
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev d-none"
-                type="button"
-                data-bs-target="#carouselWish"
-                data-bs-slide="prev"
-                aria-label="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-              </button>
-              <button
-                class="carousel-control-next d-none"
-                type="button"
-                data-bs-target="#carouselWish"
-                data-bs-slide="next"
-                aria-label="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="receive-lucky-money overflow-hidden">
-      <div class="container-xxl pt-0 pb-4 pb-lg-5">
+      <div class="container-xxl py-4 py-lg-5">
         <div class="row g-3">
-          <div class="col-12 col-md-6 col-lg-2"></div>
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
             <div>
               <div class="text-center">
                 <img src="images/huyen_qr.png" alt="" />
@@ -439,6 +505,7 @@
 
     <script src="js/invitation.min.js"></script>
     <script src="js/countdown.min.js"></script>
+    <script src="js/wish-form.min.js"></script>
     <script src="js/wish.min.js"></script>
     <script src="js/animate-script.min.js"></script>
     <script src="js/audio.min.js"></script>
