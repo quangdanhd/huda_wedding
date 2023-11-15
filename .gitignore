@@ -24,3 +24,7 @@ pnpm-debug.log*
 
 package-lock.json
 yarn.lock
+
+images/banner_desktop_0.jpg
+images/banner_mobile_0.jpg
+images/bg_flower_0.jpg
